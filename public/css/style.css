@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.banner {
+    background-color: #31C48D;
+    text-align: center;
+    padding: 0px 0;
+    position: relative;
+}
+
+header.banner img {
+    justify-self: center;
+    max-width: 30%;
+    height: auto; /* Ensure the image is responsive */
+}
+
+header.banner button {
+    justify-self: end;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #039d53da; /* Blue background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#data {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+}

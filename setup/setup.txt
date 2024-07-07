@@ -1,0 +1,17 @@
+-ouvriz mysql, copiez collez le script setup_sql.sql puis executez le
+
+-ouvrez le terminal de commande puis executez les instructions suivantes:
+
+npm install
+
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+cd..
+cd..
+
+-lancez le serveur avec node index.js
+
+-ouvrez votre navigateur, rentrez localhost:3000
+
+par defaut, il existe un compte root/root

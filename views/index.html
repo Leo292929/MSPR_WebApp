@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildLens</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="banner">
+        <img src="/images/title.png" alt="WildLens">
+        <button id="connexionButton" class="banner-button">Connexion</button>
+    </header>
+    <button id="fetchDataButton">Fetch Data</button>
+    <div id="data"></div>
+    <script src="/js/script.js"></script>
+    <script>
+        document.getElementById('connexionButton').addEventListener('click', function() {
+            window.location.href = '/login';
+        });
+    </script>
+</body>
+</html>
