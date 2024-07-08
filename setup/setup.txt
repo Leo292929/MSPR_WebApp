@@ -1,19 +1,22 @@
--ouvriz mysql, copiez collez le script setup_sql.sql puis executez le
+## Prérequis
 
--ouvrez le terminal de commande puis executez les instructions suivantes:
+- [Docker](https://www.docker.com/get-started)
 
-npm install
+## Installation
 
-python -m venv venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
-cd..
-cd..
+1. Clonez le dépôt :
 
--lancez le serveur avec:
+   ```bash
+   git clone https://github.com/<USERNAME>/<REPO>.git
+   cd <REPO>
 
-node index.js
 
--ouvrez votre navigateur, rentrez localhost:3000
+2. Ouvrez mysql, copiez collez le script setup_sql.sql puis executez le
 
-par defaut, il existe un compte root/root
+3. Construisez le conteneur Docker :
+
+    docker build -t monprojet .
+
+4. Exécutez le conteneur Docker :
+
+    docker run -p 3000:3000 monprojet
