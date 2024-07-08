@@ -10,7 +10,9 @@ pip install -r requirements.txt
 cd..
 cd..
 
--lancez le serveur avec node index.js
+-lancez le serveur avec:
+
+node index.js
 
 -ouvrez votre navigateur, rentrez localhost:3000
 
